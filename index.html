@@ -2,206 +2,67 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Library - AGCI | Manuals & Resources</title>
+<title>Library - AGCI</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
 body{font-family:'Inter',sans-serif;background:#fefcf8}
 .heading-font{font-family:'Playfair Display',serif}
-.book-font{font-family:'Merriweather',serif}
-.scrollbar-none::-webkit-scrollbar{display:none}
-.scrollbar-none{scrollbar-width:none}
+.wood{
+ background: linear-gradient(180deg,#C49A6C 0%,#8B5A2B 20%,#A67C52 50%,#8B5A2B 100%);
+ box-shadow: 0 8px 18px rgba(0,0,0,.35), inset 0 2px 0 rgba(255,255,255,.35), inset 0 -3px 0 rgba(0,0,0,.4);
+}
+.bible-book{
+ background: linear-gradient(90deg,#2D0F44 0%,#4B176E 18%,#5A1F84 50%,#4B176E 85%,#2D0F44 100%);
+ box-shadow: -4px 0 0 rgba(0,0,0,.2) inset, 4px 0 0 rgba(255,255,255,.12) inset, 0 12px 30px rgba(0,0,0,.35);
+}
+.bible-book:hover{transform: translateY(-6px) scale(1.02); box-shadow: -4px 0 0 rgba(0,0,0,.2) inset, 4px 0 0 rgba(255,255,255,.15) inset, 0 18px 40px rgba(0,0,0,.45);}
 </style>
 </head>
 <body class="bg-[#fefcf8] text-zinc-900">
-<nav class="h-20 px-6 lg:px-8 flex items-center justify-between bg-white/90 backdrop-blur-xl border-b border-zinc-100 sticky top-0 z-40">
-<a href="agci-HOME-ONLY.html" class="flex items-center gap-3"><img src="https://i.postimg.cc/59h1DHFV/file-000000000a3071f48c2ca3e54f69a60a.png" class="h-10"><span class="font-bold heading-font">AGCI</span></a>
-<div class="hidden lg:flex gap-8 text-sm font-medium">
-<a href="agci-HOME-ONLY.html" class="text-zinc-500">Home</a>
-<a href="about.html" class="text-zinc-500">About</a>
-<a href="ministries.html" class="text-zinc-500">Ministries</a>
-<a href="sermons.html" class="text-zinc-500">Sermons</a>
-<a href="events.html" class="text-zinc-500">Events</a>
-<a href="library.html" class="text-[#C89C2E] font-semibold border-b-2 border-[#C89C2E] pb-1">Library</a>
-<a href="give.html" class="text-zinc-500">Give</a>
-<a href="contact.html" class="text-zinc-500">Contact</a>
-</div>
-<div class="flex items-center gap-3">
-<a href="https://oceandrives196-boop.github.io/Agci-Bible/" target="_blank" class="hidden lg:inline-flex h-9 px-4 rounded-full bg-[#C89C2E] text-zinc-900 text-[12px] font-bold items-center gap-2 hover:bg-[#E8B94D] transition"><i class="fas fa-book-bible"></i> Open Bible</a>
-<a href="agci-HOME-ONLY.html" class="lg:hidden w-9 h-9 rounded-full bg-zinc-100 flex items-center justify-center"><i class="fas fa-arrow-left text-sm"></i></a>
-</div>
+
+<nav class="h-[72px] px-6 lg:px-10 flex items-center justify-between bg-white border-b border-zinc-100 sticky top-0 z-40">
+<a href="agci-HOME-ONLY.html" class="flex items-center gap-3"><img src="https://i.postimg.cc/59h1DHFV/file-000000000a3071f48c2ca3e54f69a60a.png" class="h-9"><span class="font-bold heading-font tracking-tight">AGCI</span></a>
+<a href="agci-HOME-ONLY.html" class="w-9 h-9 rounded-full bg-zinc-100 flex items-center justify-center lg:hidden"><i class="fas fa-arrow-left text-sm"></i></a>
 </nav>
 
-<header class="bg-[#0f0f13] relative overflow-hidden">
-<div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(#E8B94D 1px, transparent 1px); background-size: 24px 24px;"></div>
-<div class="absolute top-0 right-0 w-[600px] h-[600px] bg-[#4B176E]/30 rounded-full blur-[120px]"></div>
-<div class="relative max-w-6xl mx-auto px-6 lg:px-8 py-14 lg:py-20">
-<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8">
-<div>
-<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/10 text-[10px] tracking-[0.35em] uppercase text-[#E8B94D] font-bold"><span class="w-1.5 h-1.5 bg-[#E8B94D] rounded-full animate-pulse"></span> AGCI LIBRARY • EST. 2024</span>
-<h1 class="heading-font text-4xl lg:text-6xl font-bold text-white mt-5 leading-[0.95]">Wisdom.<br>Word. <span class="text-[#E8B94D]">Walk.</span></h1>
-<p class="text-zinc-400 text-[13px] lg:text-[14px] mt-4 max-w-md leading-relaxed">Manuals, resources and equipping materials for every believer. Search anything — topic, scripture, or author — and open instantly. Now includes the Holy Bible.</p>
-</div>
-<div class="flex gap-3">
-<div class="px-4 py-3 rounded-2xl bg-white/[0.06] border border-white/10 text-white"><div class="text-[20px] font-bold heading-font">13</div><div class="text-[10px] uppercase tracking-widest text-white/60">Manuals</div></div>
-<div class="px-4 py-3 rounded-2xl bg-white/[0.06] border border-white/10 text-white"><div class="text-[20px] font-bold heading-font">8</div><div class="text-[10px] uppercase tracking-widest text-white/60">Categories</div></div>
-<div class="px-4 py-3 rounded-2xl bg-white/[0.06] border border-white/10 text-white"><div class="text-[20px] font-bold heading-font">Apostle</div><div class="text-[10px] uppercase tracking-widest text-white/60">Lead Teacher</div></div>
-</div>
-</div>
-<div class="mt-10 max-w-3xl">
-<div class="relative group">
-<div class="absolute left-5 top-1/2 -translate-y-1/2 text-zinc-500 group-focus-within:text-[#4B176E] transition"><i class="fas fa-search"></i></div>
-<input id="searchInput" type="text" placeholder="Search manuals, topics, scriptures, author..." class="w-full h-[58px] pl-12 pr-28 rounded-full bg-white text-[14px] placeholder:text-zinc-400 focus:outline-none focus:ring-4 focus:ring-[#E8B94D]/20 shadow-[0_20px_40px_rgba(0,0,0,0.25)]">
-<button class="absolute right-2 top-1/2 -translate-y-1/2 h-[42px] px-6 rounded-full bg-zinc-900 text-white text-[13px] font-semibold hover:bg-black transition">Search</button>
-</div>
-<div class="mt-4 flex items-center gap-2 flex-wrap">
-<span class="text-[11px] text-white/40 uppercase tracking-widest mr-1">Quick:</span>
-<button onclick="quickSearch('bible')" class="px-3 py-1 rounded-full bg-[#E8B94D]/20 border border-[#E8B94D]/30 text-[#E8B94D] text-[11px] hover:bg-[#E8B94D]/30 font-bold">Bible</button>
-<button onclick="quickSearch('love')" class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-white text-[11px] hover:bg-white/15">Love</button>
-<button onclick="quickSearch('Ephesians 4')" class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-white text-[11px] hover:bg-white/15">Ephesians 4:12</button>
-<button onclick="quickSearch('leadership')" class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-white text-[11px] hover:bg-white/15">Leadership</button>
-<button onclick="quickSearch('prayer')" class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-white text-[11px] hover:bg-white/15">Prayer</button>
-</div>
-</div>
-</div>
+<header class="relative h-[42vh] min-h-[320px] bg-[#0f0c14] overflow-hidden flex items-center justify-center">
+<img src="https://images.unsplash.com/photo-1526243741027-d5585c4e06d4?q=80&w=2000&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-25" alt="">
+<div class="absolute inset-0 bg-gradient-to-t from-[#0f0c14] via-[#0f0c14]/70 to-[#0f0c14]/40"></div>
+<h1 class="relative heading-font text-5xl lg:text-7xl font-black text-white tracking-[-0.03em]">AGCI Library</h1>
 </header>
 
-<section class="max-w-6xl mx-auto px-6 lg:px-8 py-6">
-<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
-<div class="flex gap-2 overflow-x-auto scrollbar-none pb-1">
-<button data-cat="All" class="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-semibold bg-zinc-900 text-white">All Manuals</button>
-<button data-cat="Bible" class="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-[#C89C2E] text-zinc-900 font-bold border border-[#C89C2E]"><i class="fas fa-book-bible mr-1"></i> Bible</button>
-<button data-cat="Sunday School" class="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-white border">Sunday School</button>
-<button data-cat="Bible Study" class="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-white border">Bible Study</button>
-<button data-cat="Discipleship" class="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-white border">Discipleship</button>
-<button data-cat="Leadership" class="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-white border">Leadership</button>
-<button data-cat="Foundation" class="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-white border">Foundation</button>
-<button data-cat="Youth" class="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-white border">Youth</button>
+<section class="max-w-5xl mx-auto px-6 lg:px-8 py-16 lg:py-24">
+<!-- SHELF 1 -->
+<div class="relative">
+<div class="flex items-end justify-center gap-0 h-[280px]">
+<!-- Single Bible -->
+<a href="https://englishbible.agci.org.ng" target="_blank" class="bible-book w-[190px] h-[240px] rounded-[6px] rounded-l-[3px] relative flex flex-col items-center justify-between py-7 transition-all duration-300 cursor-pointer group">
+<div class="absolute left-[12px] top-0 bottom-0 w-[14px] bg-black/25"></div>
+<div class="absolute left-[26px] top-0 bottom-0 w-[1px] bg-white/15"></div>
+<span class="text-[#E8B94D] text-[10px] tracking-[0.35em] font-bold">HOLY</span>
+<div class="text-center">
+<div class="heading-font text-white text-[28px] font-bold leading-none">BIBLE</div>
+<div class="w-10 h-[2px] bg-[#E8B94D] mx-auto mt-3 mb-3"></div>
+<i class="fas fa-cross text-white/40 text-[14px]"></i>
 </div>
-<div class="flex items-center gap-2">
-<select id="sortSelect" class="h-9 px-3 rounded-full bg-white border text-[12px]"><option value="popular">Most Popular</option><option value="newest">Newest</option><option value="az">Title A-Z</option></select>
-<div class="flex rounded-full bg-white border p-1">
-<button id="gridBtn" class="w-7 h-7 rounded-full bg-zinc-900 text-white flex items-center justify-center"><i class="fas fa-grip text-[11px]"></i></button>
-<button id="listBtn" class="w-7 h-7 rounded-full text-zinc-500 flex items-center justify-center"><i class="fas fa-list text-[11px]"></i></button>
+<span class="text-white/60 text-[8px] tracking-[0.3em]">AGCI • ENGLISH</span>
+<div class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-[80%] h-[10px] bg-black/30 blur-[8px] rounded-full group-hover:blur-[10px]"></div>
+</a>
 </div>
+<div class="wood h-[18px] rounded-[3px] mt-2"></div>
+<div class="h-[14px] bg-black/20 blur-[10px] rounded-full mx-20 mt-2"></div>
 </div>
+
+<!-- Optional second empty shelf for real library feel -->
+<div class="relative mt-16 opacity-40">
+<div class="flex items-end justify-center h-[40px]"></div>
+<div class="wood h-[18px] rounded-[3px]"></div>
+<div class="h-[14px] bg-black/10 blur-[10px] rounded-full mx-20 mt-2"></div>
 </div>
+
 </section>
 
-<section class="max-w-6xl mx-auto px-6 lg:px-8 pb-24">
-<div id="resultsInfo" class="text-[12px] text-zinc-500 mb-4"></div>
-<div id="bookGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
-<div id="emptyState" class="hidden text-center py-20">
-<div class="w-16 h-16 mx-auto rounded-2xl bg-zinc-100 flex items-center justify-center mb-4"><i class="fas fa-book-open text-zinc-400"></i></div>
-<p class="heading-font font-bold">No manuals found</p><p class="text-sm text-zinc-500 mt-1">Try a different search or category</p>
-<button onclick="clearSearch()" class="mt-4 px-5 py-2 rounded-full bg-zinc-900 text-white text-sm">Clear filters</button>
-</div>
-</section>
-
-<div id="drawerOverlay" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-[60] hidden"></div>
-<div id="drawer" class="fixed right-0 top-0 h-full w-full sm:w-[420px] bg-white z-[61] translate-x-full transition-transform duration-300 shadow-2xl flex flex-col">
-<div class="h-20 px-6 flex items-center justify-between border-b"><span class="font-bold heading-font">Manual Details</span><button onclick="closeDrawer()" class="w-8 h-8 rounded-full bg-zinc-100 flex items-center justify-center"><i class="fas fa-times text-xs"></i></button></div>
-<div id="drawerContent" class="flex-1 overflow-y-auto p-6"></div>
-<div class="p-4 border-t flex gap-2">
-<a id="drawerOpenLink" href="#" target="_blank" class="flex-1 h-11 rounded-full bg-zinc-900 text-white text-[13px] font-semibold flex items-center justify-center gap-2 hover:bg-black">Open Manual <i class="fas fa-arrow-right text-[10px]"></i></a>
-<button onclick="closeDrawer()" class="h-11 px-5 rounded-full bg-zinc-100 text-[13px]">Close</button>
-</div>
-</div>
-
-<div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-[70] hidden"><div class="bg-zinc-900 text-white text-[12px] px-4 py-3 rounded-full shadow-xl flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-[#E8B94D] text-zinc-900 flex items-center justify-center"><i class="fas fa-link text-[10px]"></i></span><span id="toastMsg">Link not attached yet</span></div></div>
-
-<script>
-const BOOKS = [
- {id:"agci-bible", vol:"HOLY BIBLE • NEW KJV", cat:"Bible", title:"New KJV", sub:"The Holy Bible - New King James Version", author:"AGCI Library", year:2025, pages:1189, grad:"from-[#C89C2E] to-[#8B6914]", icon:"fa-book-bible", desc:"The New KJV Holy Bible. Complete Old & New Testament.", topics:["bible","new kjv","nkjv","kjv","word","scripture","holy","old testament","new testament","genesis","psalms","john","revelation"], refs:["John 1:1","Psalm 119:105","2 Timothy 3:16","Hebrews 4:12"], href:"https://oceandrives196-boop.github.io/Agci-Bible/", pop:100, featured:true},
- {id:"sunday-12", vol:"VOL 1 • SUNDAY SCHOOL", cat:"Sunday School", title:"Weekly Sunday School Manual", sub:"Lesson 12: Walking in Love", author:"Apostle Bosun Paseda", year:2024, pages:48, grad:"from-[#4B176E] to-[#2D0F44]", icon:"fa-book-open", desc:"The AGCI DNA — love as culture, not emotion.", topics:["love","agape"], refs:["1 John 4:8","John 13:34","John 13:35","Romans 13:8"], href:"sunday-school-lesson-12.html", pop:98},
- {id:"bible-34", vol:"VOL 2 • BIBLE STUDY", cat:"Bible Study", title:"Weekly Bible Study Manual", sub:"Equipping the Saints", author:"Apostle Bosun Paseda", year:2024, pages:64, grad:"from-[#C89C2E] to-[#8B6914]", icon:"fa-book-bible", desc:"Vision unpacked from Ephesians 4:12.", topics:["five-fold","equipping"], refs:["Ephesians 4:11","Ephesians 4:12"], href:"bible-study-week-34.html", pop:95},
- {id:"disc-101", vol:"VOL 3 • DISCIPLESHIP", cat:"Discipleship", title:"Discipleship 101", sub:"Following Christ Daily", author:"Min. Faith Paseda", year:2024, pages:72, grad:"from-[#0f172a] to-[#1e293b]", icon:"fa-people-group", desc:"Foundational journey for new believers.", topics:["salvation"], refs:["Matthew 28:19"], href:"#", pop:88},
- {id:"authority", vol:"VOL 4 • FOUNDATION", cat:"Foundation", title:"The Believer's Authority", sub:"Reigning in Life", author:"Apostle Bosun Paseda", year:2023, pages:56, grad:"from-[#7c2d12] to-[#431407]", icon:"fa-crown", desc:"Who you are in Christ.", topics:["authority"], refs:["Romans 8:37"], href:"#", pop:82},
- {id:"foundation", vol:"VOL 5 • FOUNDATION", cat:"Foundation", title:"Foundation of Faith", sub:"Pillars That Remain", author:"Pst. Michael Ojo", year:2023, pages:92, grad:"from-[#14532d] to-[#052e16]", icon:"fa-mountain", desc:"Six foundational doctrines.", topics:["doctrine"], refs:["Hebrews 6:1-2"], href:"#", pop:76},
- {id:"workers", vol:"VOL 6 • LEADERSHIP", cat:"Leadership", title:"AGCI Workers Manual", sub:"Serving with Excellence", author:"AGCI Admin", year:2024, pages:110, grad:"from-[#1e1b4b] to-[#312e81]", icon:"fa-handshake-angle", desc:"Culture and excellence.", topics:["service"], refs:["Colossians 3:23"], href:"#", pop:91},
- {id:"leadership", vol:"VOL 7 • LEADERSHIP", cat:"Leadership", title:"Leadership & Ministry", sub:"Shepherding God's People", author:"Apostle Bosun Paseda", year:2023, pages:84, grad:"from-[#4a044e] to-[#701a75]", icon:"fa-compass", desc:"Calling to character.", topics:["shepherd"], refs:["1 Peter 5:2-3"], href:"#", pop:79},
- {id:"prayer", vol:"VOL 8 • DISCIPLESHIP", cat:"Discipleship", title:"Prayer & Intercession", sub:"Standing in the Gap", author:"Min. Deborah Ayo", year:2024, pages:68, grad:"from-[#0c4a6e] to-[#082f49]", icon:"fa-fire", desc:"House of prayer blueprint.", topics:["prayer"], refs:["1 Thess 5:17"], href:"#", pop:85},
- {id:"holyspirit", vol:"VOL 9 • BIBLE STUDY", cat:"Bible Study", title:"Holy Spirit & Gifts", sub:"Power for Purpose", author:"Apostle Bosun Paseda", year:2022, pages:76, grad:"from-[#9a3412] to-[#7c2d12]", icon:"fa-wind", desc:"Gifts of the Spirit.", topics:["holy spirit"], refs:["Acts 1:8"], href:"#", pop:80},
- {id:"marriage", vol:"VOL 10 • FAMILY", cat:"Discipleship", title:"Marriage & Family", sub:"God's Design", author:"Apostle & Min. Paseda", year:2023, pages:88, grad:"from-[#831843] to-[#500724]", icon:"fa-heart", desc:"Family altar.", topics:["marriage"], refs:["Ephesians 5:25"], href:"#", pop:84},
- {id:"evangelism", vol:"VOL 11 • MISSION", cat:"Discipleship", title:"Evangelism Manual", sub:"Reaching the Lost", author:"Evang. Tunde Cole", year:2024, pages:54, grad:"from-[#713f12] to-[#422006]", icon:"fa-bullhorn", desc:"Soul-winning.", topics:["evangelism"], refs:["Mark 16:15"], href:"#", pop:77},
- {id:"youth", vol:"VOL 12 • YOUTH", cat:"Youth", title:"Youth Ablaze", sub:"On Fire for Jesus", author:"Pst. Daniel Akin", year:2024, pages:44, grad:"from-[#701a75] to-[#86198f]", icon:"fa-bolt", desc:"Youth for Jesus.", topics:["youth"], refs:["1 Timothy 4:12"], href:"#", pop:90},
-];
-let activeCat="All",searchQuery="",sortBy="popular",view="grid";
-const grid=document.getElementById('bookGrid'),searchInput=document.getElementById('searchInput'),sortSelect=document.getElementById('sortSelect'),resultsInfo=document.getElementById('resultsInfo'),emptyState=document.getElementById('emptyState');
-function render(){
- let filtered=BOOKS.filter(b=>{
-   const catMatch=activeCat==="All"||b.cat===activeCat;
-   const q=searchQuery.toLowerCase();
-   const searchMatch=!q||(b.title+b.sub+b.author+b.cat+b.vol+b.desc+b.topics.join(' ')+b.refs.join(' ')).toLowerCase().includes(q);
-   return catMatch&&searchMatch;
- });
- if(sortBy==="popular")filtered.sort((a,b)=>b.pop-a.pop);
- if(sortBy==="newest")filtered.sort((a,b)=>b.year-a.year);
- if(sortBy==="az")filtered.sort((a,b)=>a.title.localeCompare(b.title));
- if(activeCat==="All" && sortBy==="popular" &&!searchQuery){
-   filtered.sort((a,b)=>{ if(a.featured) return -1; if(b.featured) return 1; return b.pop-a.pop; });
- }
- resultsInfo.textContent=`${filtered.length} manuals • ${activeCat}${searchQuery?` • "${searchQuery}"`:''}`;
- grid.innerHTML="";
- if(filtered.length===0){emptyState.classList.remove('hidden');grid.classList.add('hidden');return;}
- emptyState.classList.add('hidden');grid.classList.remove('hidden');
- grid.className=view==="grid"?"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5":"grid grid-cols-1 gap-3";
- filtered.forEach(b=>{
-   const isBible = b.id === 'agci-bible';
-   const card=document.createElement('div');
-   card.className=view==="grid"?"group cursor-pointer bg-white rounded-[20px] border border-zinc-100 p-2 hover:shadow-[0_18px_40px_rgba(0,0,0,0.10)] hover:-translate-y-1 transition-all duration-300":"group cursor-pointer bg-white rounded-2xl border border-zinc-100 p-2 flex gap-3 hover:shadow-lg transition";
-   if(isBible) card.className += " ring-2 ring-[#E8B94D]/30";
-   card.innerHTML=view==="grid"?`<div class="rounded-[14px] h-[208px] bg-gradient-to-br ${b.grad} p-6 flex flex-col justify-between relative overflow-hidden"><i class="fas ${b.icon} absolute -right-5 -bottom-5 text-white/[0.08] text-[110px] group-hover:scale-110 transition duration-500"></i>${isBible? '<span class="absolute top-3 right-3 px-2 py-1 rounded-full bg-white text-[#8B6914] text-[9px] font-black tracking-widest">FEATURED • WORD</span>' : ''}<div class="relative flex justify-between"><span class="px-2.5 py-1 rounded-full bg-white text-[9px] font-bold tracking-[0.14em] text-zinc-900">${b.vol}</span><span class="w-6 h-6 rounded-full bg-white/15 backdrop-blur border border-white/20 flex items-center justify-center text-white"><i class="fas ${b.icon} text-[10px]"></i></span></div><div class="relative"><h3 class="heading-font text-[19px] font-bold leading-[1.1] text-white">${b.title}</h3><p class="text-[12px] text-white/80 mt-1.5 line-clamp-2">${b.sub}</p></div></div><div class="px-2 py-3.5 flex items-center justify-between"><div><div class="text-[12.5px] font-semibold truncate">${b.sub}</div><div class="text-[11px] text-zinc-500 mt-0.5">${b.author} • ${b.pages} pgs</div></div><span class="w-8 h-8 rounded-full ${isBible? 'bg-[#C89C2E] text-zinc-900' : 'bg-zinc-900 text-white'} flex items-center justify-center group-hover:bg-black"><i class="fas fa-arrow-right text-[11px]"></i></span></div>`:`<div class="w-[84px] h-[84px] rounded-xl bg-gradient-to-br ${b.grad} flex items-center justify-center shrink-0 relative">${isBible? '<span class="absolute -top-1 -right-1 w-3 h-3 bg-[#E8B94D] rounded-full border-2 border-white"></span>' : ''}<i class="fas ${b.icon} text-white/80 text-xl"></i></div><div class="flex-1 min-w-0 py-1"><div class="flex items-center gap-2"><span class="text-[9px] tracking-widest font-bold px-2 py-0.5 rounded-full bg-zinc-900 text-white">${b.vol}</span><span class="text-[10px] text-zinc-400">${b.pages} pages</span></div><div class="heading-font font-bold text-[14px] mt-1 truncate">${b.title}</div><div class="text-[12px] text-zinc-500 truncate">${b.sub} • ${b.author}</div></div><span class="self-center w-8 h-8 rounded-full ${isBible? 'bg-[#C89C2E] text-zinc-900' : 'bg-zinc-900 text-white'} flex items-center justify-center"><i class="fas fa-arrow-right text-[10px]"></i></span>`;
-   if(b.id==='agci-bible'){ card.onclick=()=>{ window.open(b.href, '_blank'); }; } else { card.onclick=()=>openDrawer(b); } grid.appendChild(card);
- });
-}
-function quickSearch(q){searchInput.value=q;searchQuery=q;render();}
-function clearSearch(){searchInput.value="";searchQuery="";activeCat="All";render(); document.querySelectorAll('.catBtn').forEach(b=>{b.classList.remove('bg-zinc-900','text-white');b.classList.add('bg-white','border'); if(b.dataset.cat==='Bible'){b.classList.remove('bg-white','border'); b.classList.add('bg-[#C89C2E]','text-zinc-900');} }); document.querySelector('[data-cat="All"]').classList.add('bg-zinc-900','text-white'); document.querySelector('[data-cat="All"]').classList.remove('bg-white','border');}
-searchInput.addEventListener('input',e=>{searchQuery=e.target.value;render();});
-sortSelect.addEventListener('change',e=>{sortBy=e.target.value;render();});
-document.querySelectorAll('.catBtn').forEach(btn=>{btn.addEventListener('click',()=>{
-  activeCat=btn.dataset.cat;
-  document.querySelectorAll('.catBtn').forEach(b=>{
-    b.className="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-white border";
-    if(b.dataset.cat==='Bible') b.className="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-[#C89C2E]/15 border border-[#C89C2E]/30 text-[#8B6914]";
-    if(b.dataset.cat==='All') b.className="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-medium bg-white border";
-  });
-  if(activeCat==='Bible'){
-    btn.className="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-semibold bg-[#C89C2E] text-zinc-900 border border-[#C89C2E]";
-  } else if(activeCat==='All'){
-    btn.className="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-semibold bg-zinc-900 text-white";
-  } else {
-    btn.className="catBtn whitespace-nowrap px-4 py-2 rounded-full text-[12px] font-semibold bg-zinc-900 text-white";
-  }
-  render();
-});});
-document.getElementById('gridBtn').onclick=()=>{view="grid";render();}
-document.getElementById('listBtn').onclick=()=>{view="list";render();}
-function openDrawer(b){
- const isBible = b.id === 'agci-bible';
- document.getElementById('drawerContent').innerHTML=`<div class="rounded-2xl h-[220px] bg-gradient-to-br ${b.grad} p-6 flex flex-col justify-between relative overflow-hidden"><i class="fas ${b.icon} absolute -right-6 -bottom-6 text-white/[0.08] text-[120px]"></i><span class="relative px-2.5 py-1 rounded-full bg-white text-[9px] font-bold tracking-widest w-fit">${b.vol}</span><div class="relative"><h2 class="heading-font text-2xl font-bold text-white leading-tight">${b.title}</h2><p class="text-white/80 text-sm mt-1">${b.sub}</p>${isBible? '<div class="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white text-[11px] font-bold text-zinc-900"><i class="fas fa-bolt text-[#C89C2E]"></i> Live Bible - Opens Instantly</div>' : ''}</div></div><div class="mt-5"><h3 class="font-bold">${b.sub}</h3><p class="text-sm text-zinc-600 mt-2 leading-relaxed">${b.desc}</p><div class="mt-4 flex flex-wrap gap-1.5">${b.refs.map(r=>`<span class="px-2.5 py-1 rounded-full bg-[#4B176E]/5 border text-[11px] font-semibold text-[#4B176E]">${r}</span>`).join('')}</div><div class="mt-6 p-3 rounded-xl bg-zinc-50 border text-[11px]"><b>Author:</b> ${b.author} • ${b.year} • ${b.pages} pages</div>${isBible? `<div class="mt-4 p-4 rounded-xl bg-[#fef9e7] border border-[#E8B94D]/30"><div class="text-[11px] font-bold text-[#8B6914] uppercase tracking-widest flex items-center gap-2"><i class="fas fa-link"></i> Bible Link Active</div><a href="${b.href}" target="_blank" class="text-[12px] text-[#4B176E] underline break-all mt-1 block">${b.href}</a></div>` : `<div class="mt-6 p-4 rounded-xl bg-[#0f0f13] text-white"><div class="text-[10px] tracking-[0.3em] uppercase font-bold text-[#E8B94D]">Link</div><code class="block mt-2 text-[11px] bg-white/10 rounded-lg p-3 font-mono">href: "${b.href}" // CHANGE HERE</code></div>`}</div>`;
- document.getElementById('drawerOpenLink').href=b.href;
- document.getElementById('drawerOpenLink').target="_blank";
- if(isBible){
-   document.getElementById('drawerOpenLink').innerHTML='Open Bible <i class="fas fa-book-bible text-[12px] ml-1"></i>';
-   document.getElementById('drawerOpenLink').className="flex-1 h-11 rounded-full bg-[#C89C2E] text-zinc-900 text-[13px] font-bold flex items-center justify-center gap-2 hover:bg-[#E8B94D] transition";
-   document.getElementById('drawerOpenLink').onclick=null;
- } else if(b.href==="#"){
-   document.getElementById('drawerOpenLink').innerHTML='Open Manual <i class="fas fa-arrow-right text-[10px]"></i>';
-   document.getElementById('drawerOpenLink').className="flex-1 h-11 rounded-full bg-zinc-900 text-white text-[13px] font-semibold flex items-center justify-center gap-2 hover:bg-black";
-   document.getElementById('drawerOpenLink').onclick=(e)=>{e.preventDefault();showToast(`"${b.title}" - link not attached yet`);};
- } else {
-   document.getElementById('drawerOpenLink').innerHTML='Open Manual <i class="fas fa-arrow-right text-[10px]"></i>';
-   document.getElementById('drawerOpenLink').className="flex-1 h-11 rounded-full bg-zinc-900 text-white text-[13px] font-semibold flex items-center justify-center gap-2 hover:bg-black";
-   document.getElementById('drawerOpenLink').onclick=null;
- }
- document.getElementById('drawerOverlay').classList.remove('hidden');document.getElementById('drawer').classList.remove('translate-x-full');
-}
-function closeDrawer(){document.getElementById('drawer').classList.add('translate-x-full');document.getElementById('drawerOverlay').classList.add('hidden');}
-document.getElementById('drawerOverlay').onclick=closeDrawer;
-function showToast(msg){document.getElementById('toastMsg').textContent=msg;document.getElementById('toast').classList.remove('hidden');setTimeout(()=>document.getElementById('toast').classList.add('hidden'),3500);}
-render();
-</script>
 </body>
 </html>
